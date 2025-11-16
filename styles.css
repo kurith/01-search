@@ -1,15 +1,60 @@
 body {
+
     font-family: Google Sans, Arial, Helvetica, sans-serif;
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 10px;
+    height: 500px;
+    justify-content: center;
+    
+}
+
+input {
+
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    box-sizing: border-box;
+
+}
+
+#textbox {
+
+    width: 80vw;
+    max-width: 500px;
+    font-size: 16px;
+}
+
+#button {
+
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 80vw;
+    max-width: 150px;
 }
 
 .links {
+
     display: flex;
     flex-wrap: wrap;
+    align-items: end;
     justify-content: end;
+
 }
 
-.links > a {
+.links a {
+
     font-size: 17px;
     margin: 5px;
     padding: 10px;
+
 }
